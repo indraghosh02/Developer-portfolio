@@ -27,7 +27,7 @@ nav {
     font-size: 35px;
     font-weight: 700;
 }
-.section-description{
+.section-description , .info-title{
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -95,17 +95,47 @@ main{
     max-width: 1140px;
    margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 
 .about{
     padding: 130px;
     border-radius: 10px;
     background:#FFF8F3 ;
     margin: 130px 0;
+    border: 1px solid rgb(220, 194, 194);
+    border-radius: 0px;
 }
 .about-info-container{
     display: flex;
     justify-content: space-around;
 }
-.about-info-container{
+.about-info{
     text-align: center;
 }
+/*skils related styles*/
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+#What-i-do-description{
+    padding: 30px 150px;
+}
+.skill-description{
+   color: #757575;
+}
+.skill{
+    padding: 3opx;
+    gap : 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/*resume section style*/
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
